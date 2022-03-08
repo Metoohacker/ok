@@ -195,7 +195,7 @@ def action():
                     okb.close()
                     oks.append(c + user + pass2)
                 elif 'www.facebook.com' in q['error_msg']:
-                    print '\x1b[1;91m  [Mateen_OK] ' + k + c + user + '  |  ' + pass2
+                    print '\x1b[1;92m  [Mateen_OK] ' + k + c + user + '  |  ' + pass2
                     cps = open('save/CP.txt', 'a')
                     cps.write(k + c + user + pass2 + '\n')
                     cps.close()
